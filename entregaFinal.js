@@ -3,27 +3,27 @@ console.log("Ok")
 const productos = [
     {
         id:"01",
-        imagen:"Imagenes/Vino1.jpg",
-        nombre:"Rue de Bonpland Chardonnay",
-        precio: 30000 
+        imagen:"imagenes/album2026.jpg",
+        nombre:"Album 2026 - Edición Limitada",
+        precio: 28000 
     },
     {
         id:"02",
-        imagen:"Imagenes/Vino2.jpg",
-        nombre:"Rue de Bonpland Blend",
-        precio: 25000 
+        imagen:"imagenes/sobrefigurita.jpg",
+        nombre:"Figurita Mundial 2026 - Edición Especial",
+        precio: 1500 
     },
     {
         id:"03",
-        imagen:"Imagenes/Vino3.jpg",
-        nombre:"Vino Reflejo",
-        precio: 35000 
+        imagen:"imagenes/jorgitonegro.jpg",
+        nombre:"Jorgito Negro",
+        precio: 1200 
     },
     {
         id:"04",
-        imagen:"Imagenes/Producto3.jpg",
-        nombre:"Caja chocolate Marroc",
-        precio: 15000 
+        imagen:"imagenes/guaymallen.jpg",
+        nombre:"Guaymallen Tri Alfajor",
+        precio: 1800 
     },
 ];
 /*

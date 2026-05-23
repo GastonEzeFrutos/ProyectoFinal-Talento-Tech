@@ -110,34 +110,24 @@ main,
 }
 
 .hero-section {
-    display: grid;
-    grid-template-columns: minmax(300px, 50%) 1fr;
-    align-items: stretch;
+    display: flex;
+    justify-content: center;
     padding: 36px clamp(20px, 6vw, 120px) 72px;
-}
-
-.hero-media {
-    min-height: 560px;
-    overflow: hidden;
-    background: var(--surface-strong);
-}
-
-.hero-media video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    min-height: 470px;
-    margin: 48px 0 48px -70px;
+    width: min(100%, 860px);
+    min-height: 380px;
+    margin: 0;
     padding: clamp(36px, 6vw, 92px) clamp(28px, 5vw, 96px);
     background: var(--primary);
     color: #ffffff;
     box-shadow: var(--shadow);
+    text-align: center;
 }
 
 .eyebrow {
@@ -189,6 +179,7 @@ h3 {
 
 .hero-actions {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 14px;
 }
@@ -508,17 +499,8 @@ h3 {
 }
 
 @media (max-width: 1080px) {
-    .hero-section,
     .shop-panel {
         grid-template-columns: 1fr;
-    }
-
-    .hero-content {
-        margin: -80px 28px 0;
-    }
-
-    .hero-media {
-        min-height: 460px;
     }
 
     .productos {
@@ -557,13 +539,8 @@ h3 {
         padding-bottom: 52px;
     }
 
-    .hero-media {
-        min-height: 320px;
-    }
-
     .hero-content {
-        min-height: auto;
-        margin: 0;
+        min-height: 320px;
         padding: 34px 24px;
     }
 
