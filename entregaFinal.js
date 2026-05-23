@@ -94,8 +94,8 @@ function agregarProductos() {
                 <img src="${producto.imagen}" alt="${producto.nombre}">
                 <div class="producto-contenido">
                     <h4>${producto.nombre}</h4>
-                    <span>Código: ${producto.id}</span>
-                    <span>Precio: $ ${producto.precio}</span>
+                    <span class="producto-meta">Codigo: ${producto.id}</span>
+                    <span class="producto-precio">$ ${producto.precio}</span>
                     <button class="btn-comprar" type="button" data-id="${producto.id}">Comprar</button>
                 </div>
             </div>
@@ -130,7 +130,7 @@ function actualizarCarritoHTML() {
     const carritoCompras = document.querySelector(".carritoCompras");
 
     if (!carritoCompras) {
-        console.error("Error: No se encontró el contenedor con la clase 'CarritoCompras'. Asegúrate de que exista en tu HTML.");
+        console.error("Error: No se encontro el contenedor con la clase 'CarritoCompras'. Asegurate de que exista en tu HTML.");
         return;
     }
 
